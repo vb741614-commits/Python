@@ -16,7 +16,6 @@ PAGE = """<!doctype html>
   <title>Python Calculator</title>
   <style>
     :root {
-      color-scheme: dark;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: #10131b;
       color: #f5f6fa;
