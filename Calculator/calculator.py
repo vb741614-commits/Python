@@ -15,13 +15,7 @@ PAGE = """<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Python Calculator</title>
   <style>
-    :root {
-      color-scheme: dark;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #10131b;
-      color: #f5f6fa;
-    }
-    * { box-sizing: border-box; }
+        * { box-sizing: border-box; }
     body {
       min-height: 100vh;
       margin: 0;
