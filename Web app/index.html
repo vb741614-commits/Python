@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fbf3ea">
+    <meta name="description" content="A little love, made just for you.">
+    <title>For My Favorite Person</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="A little love home">
+          <span class="brand-heart" aria-hidden="true">♥</span>
+          <span>a little love for Darling</span>
+        </a>
+        <span class="topbar-note">made just for you, Darling <span aria-hidden="true">✦</span></span>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE NOTE FOR YOU</p>
+            <h1 id="hero-title">Darling, you make<br>my world feel <em>softer.</em></h1>
+            <p class="hero-description">Just a tiny corner of the internet to remind you how very, very loved you are.</p>
+            <button class="primary-button" id="letter-button" type="button">
+              <span>Open your little love note</span><span class="button-arrow" aria-hidden="true">↗</span>
+            </button>
+            <p class="tiny-prompt"><span aria-hidden="true">♡</span> P.S. you can tap the heart, too</p>
+          </div>
+
+          <div class="hero-art">
+            <div class="sun-glow" aria-hidden="true"></div>
+            <span class="sparkle sparkle-one" aria-hidden="true">✳</span>
+            <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+            <span class="sparkle sparkle-three" aria-hidden="true">·</span>
+            <div class="photo-frame">
+              <div class="photo-art" role="img" aria-label="Illustration of a little pink heart in a sunny meadow">
+                <div class="art-sun"></div>
+                <div class="art-hill art-hill-back"></div>
+                <div class="art-hill art-hill-front"></div>
+                <div class="flower flower-one"><span>✿</span></div>
+                <div class="flower flower-two"><span>✿</span></div>
+                <div class="flower flower-three"><span>✿</span></div>
+                <button class="big-heart" id="heart-button" type="button" aria-label="Tap the heart for a little surprise">
+                  <span aria-hidden="true">♥</span>
+                </button>
+              </div>
+              <div class="photo-caption"><span>my favorite place</span><span aria-hidden="true">♡</span></div>
+            </div>
+            <div class="love-stamp" aria-hidden="true"><span>YOU ARE</span><strong>LOVED</strong><span>MORE EACH DAY</span></div>
+            <span class="floating-note" aria-hidden="true">♡</span>
+          </div>
+        </section>
+
+        <section class="gallery-section" aria-labelledby="gallery-title">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span> LITTLE MOMENTS, BIG LOVE</p>
+            <h2 id="gallery-title">Our little love<br><em>gallery.</em></h2>
+            <p class="gallery-invitation">Darling, I made you a little surprise.<br>Tap below to see all our pictures and a few secret messages.</p>
+            <button class="primary-button surprise-button" id="surprise-button" type="button">
+              <span>Tap here, my love</span><span class="button-arrow" aria-hidden="true">♡</span>
+            </button>
+            <p class="gallery-browse-hint">Or choose any picture below to open its own note.</p>
+          </div>
+          <div class="gallery-grid">
+            <button class="gallery-card" type="button" data-photo="darling-1.jpg" aria-label="Open Darling's photo by the view">
+              <span class="gallery-image">
+                <span class="gallery-placeholder placeholder-sun" aria-hidden="true"><span>♡</span></span>
+                <img src="/photos/darling-1.jpg" alt="Darling smiling beside a scenic view" loading="lazy">
+                <span class="gallery-open" aria-hidden="true">↗</span>
+              </span>
+              <span class="gallery-caption"><span>you, stealing the whole view</span><span>01</span></span>
+            </button>
+            <button class="gallery-card" type="button" data-photo="darling-2.jpg" aria-label="Open Darling's portrait in yellow">
+              <span class="gallery-image">
+                <span class="gallery-placeholder placeholder-rose" aria-hidden="true"><span>✿</span></span>
+                <img src="/photos/darling-2.jpg" alt="Darling in a bright yellow outfit" loading="lazy">
+                <span class="gallery-open" aria-hidden="true">↗</span>
+              </span>
+              <span class="gallery-caption"><span>my sunshine in yellow</span><span>02</span></span>
+            </button>
+            <button class="gallery-card" type="button" data-photo="darling-3.jpg" aria-label="Open our selfie together">
+              <span class="gallery-image">
+                <span class="gallery-placeholder placeholder-peach" aria-hidden="true"><span>♥</span></span>
+                <img src="/photos/darling-3.jpg" alt="Darling and her partner taking a selfie together" loading="lazy">
+                <span class="gallery-open" aria-hidden="true">↗</span>
+              </span>
+              <span class="gallery-caption"><span>my favorite view: us</span><span>03</span></span>
+            </button>
+          </div>
+        </section>
+
+        <section class="reasons-section" aria-labelledby="reasons-title">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span> IN CASE YOU FORGOT</p>
+            <h2 id="reasons-title">A few of my favorite things<br><em>about you.</em></h2>
+            <p>Tap a little card. I could make this list forever.</p>
+          </div>
+          <div class="reasons-grid">
+            <button class="reason-card" type="button" data-reason="The way you make ordinary days feel like something worth remembering.">
+              <span class="card-icon icon-sun" aria-hidden="true">☼</span>
+              <span class="card-number">01 / THE EVERYDAY</span>
+              <span class="card-title">Your kind of magic</span>
+              <span class="card-hint">tap to read <span aria-hidden="true">↗</span></span>
+            </button>
+            <button class="reason-card" type="button" data-reason="Your laugh is still one of my favorite sounds in the whole world.">
+              <span class="card-icon icon-spark" aria-hidden="true">✳</span>
+              <span class="card-number">02 / THAT LAUGH</span>
+              <span class="card-title">The sound of happy</span>
+              <span class="card-hint">tap to read <span aria-hidden="true">↗</span></span>
+            </button>
+            <button class="reason-card" type="button" data-reason="You make people feel seen, safe, and a little more at home.">
+              <span class="card-icon icon-heart" aria-hidden="true">♡</span>
+              <span class="card-number">03 / YOUR BIG HEART</span>
+              <span class="card-title">The way you care</span>
+              <span class="card-hint">tap to read <span aria-hidden="true">↗</span></span>
+            </button>
+          </div>
+        </section>
+
+        <section class="closing-note" aria-label="A reminder">
+          <span class="closing-flower" aria-hidden="true">✿</span>
+          <p>Wherever today takes you,</p>
+          <h2>you have someone<br><em>cheering for you.</em></h2>
+          <button class="text-button" id="hug-button" type="button">send yourself a little hug <span aria-hidden="true">♡</span></button>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>made with all my heart</span>
+        <span aria-hidden="true">♥</span>
+        <span>and a little bit of magic</span>
+      </footer>
+    </div>
+
+    <dialog class="love-dialog" id="love-dialog" aria-labelledby="dialog-title">
+      <form method="dialog">
+        <button class="dialog-close" aria-label="Close love note">×</button>
+      </form>
+      <span class="dialog-heart" aria-hidden="true">♥</span>
+      <p class="eyebrow">OPEN WHENEVER YOU NEED A REMINDER</p>
+      <h2 id="dialog-title">Hey, you.</h2>
+      <p class="dialog-message">I hope you know that even on the most ordinary days, you make my life feel extraordinary. I’m so lucky I get to know you, laugh with you, and call you my favorite person, Darling.</p>
+      <p class="dialog-signoff">All my love, always <span aria-hidden="true">♡</span></p>
+    </dialog>
+
+    <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="photo-note-title">
+      <form method="dialog" class="photo-dialog-close">
+        <button class="dialog-close" aria-label="Close photo and love note">×</button>
+      </form>
+      <button class="photo-nav photo-prev" type="button" aria-label="Previous picture">‹</button>
+      <figure class="photo-viewer">
+        <div class="photo-viewer-image">
+          <div class="photo-placeholder" aria-hidden="true"><span>♡</span></div>
+          <img id="photo-viewer-img" src="/photos/darling-1.jpg" alt="">
+        </div>
+        <figcaption class="photo-note">
+          <div class="photo-decor" aria-hidden="true">
+            <span>✿</span><span>♡</span><span>💋</span><span>♥</span><span>✿</span>
+          </div>
+          <p class="eyebrow">A LITTLE NOTE FOR DARLING</p>
+          <h2 id="photo-note-title">One of my favorite moments</h2>
+          <p id="photo-note-message"></p>
+          <span class="photo-note-heart" aria-hidden="true">♡</span>
+        </figcaption>
+      </figure>
+      <button class="photo-nav photo-next" type="button" aria-label="Next picture">›</button>
+      <p class="photo-counter" id="photo-counter" aria-live="polite"></p>
+    </dialog>
+
+    <dialog class="surprise-dialog" id="surprise-dialog" aria-labelledby="surprise-title">
+      <form method="dialog" class="surprise-close">
+        <button class="dialog-close" aria-label="Close your surprise">×</button>
+      </form>
+      <div class="surprise-content">
+        <div class="surprise-gift" aria-hidden="true">
+          <span class="gift-spark gift-spark-one">✦</span>
+          <span class="gift-spark gift-spark-two">♡</span>
+          <span class="gift-box"><span class="gift-ribbon"></span></span>
+          <span class="gift-lid"><span class="gift-ribbon"></span><span class="gift-bow"></span></span>
+        </div>
+        <span class="dialog-heart" aria-hidden="true">♥</span>
+        <p class="eyebrow">A LITTLE SURPRISE FOR DARLING</p>
+        <h2 id="surprise-title">A few moments, a whole lot of love.</h2>
+        <div class="surprise-photos">
+          <button class="surprise-photo" type="button" aria-pressed="false" aria-label="Flip to reveal Darling by the view">
+            <span class="surprise-photo-inner">
+              <span class="surprise-photo-front">
+                <span class="flip-flower" aria-hidden="true">✿</span>
+                <span class="flip-heart" aria-hidden="true">♡</span>
+                <span class="flip-gift" aria-hidden="true">🎁</span>
+                <span class="flip-instruction">Tap to reveal</span>
+                <span class="flip-subtitle">a little memory for you</span>
+              </span>
+              <span class="surprise-photo-back" aria-hidden="true">
+                <img src="/photos/darling-1.jpg" alt="Darling smiling beside a scenic view">
+                <span class="surprise-photo-caption">You, stealing the whole view <span aria-hidden="true">♡</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="surprise-photo" type="button" aria-pressed="false" aria-label="Flip to reveal Darling in yellow">
+            <span class="surprise-photo-inner">
+              <span class="surprise-photo-front">
+                <span class="flip-flower" aria-hidden="true">✿</span>
+                <span class="flip-heart" aria-hidden="true">♡</span>
+                <span class="flip-gift" aria-hidden="true">🎁</span>
+                <span class="flip-instruction">Tap to reveal</span>
+                <span class="flip-subtitle">a little memory for you</span>
+              </span>
+              <span class="surprise-photo-back" aria-hidden="true">
+                <img src="/photos/darling-2.jpg" alt="Darling in a bright yellow outfit">
+                <span class="surprise-photo-caption">My sunshine in yellow <span aria-hidden="true">✿</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="surprise-photo" type="button" aria-pressed="false" aria-label="Flip to reveal our selfie">
+            <span class="surprise-photo-inner">
+              <span class="surprise-photo-front">
+                <span class="flip-flower" aria-hidden="true">✿</span>
+                <span class="flip-heart" aria-hidden="true">♡</span>
+                <span class="flip-gift" aria-hidden="true">🎁</span>
+                <span class="flip-instruction">Tap to reveal</span>
+                <span class="flip-subtitle">a little memory for you</span>
+              </span>
+              <span class="surprise-photo-back" aria-hidden="true">
+                <img src="/photos/darling-3.jpg" alt="Darling and her partner taking a selfie together">
+                <span class="surprise-photo-caption">My favorite view: us <span aria-hidden="true">♥</span></span>
+              </span>
+            </span>
+          </button>
+        </div>
+        <div class="secret-messages">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A FEW LITTLE SECRETS <span class="eyebrow-line"></span></p>
+          <p>Love u meri Buggi <span aria-hidden="true">♡</span></p>
+          <p>I love you more than anything <span aria-hidden="true">♥</span></p>
+          <p>Missing you more <span aria-hidden="true">✿</span></p>
+          <p>Lots of love <span aria-hidden="true">♡</span></p>
+          <p>Lots of kisses <span aria-hidden="true">💋</span></p>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div class="confetti-layer" id="confetti-layer" aria-hidden="true"></div>
+  </body>
+</html>
